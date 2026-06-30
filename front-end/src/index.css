@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import 'react-day-picker/dist/style.css';
+
+/* Altera a cor do ícone de calendário no Chrome/Edge */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1); /* Inverte a cor para branco (útil para temas escuros) */
+}
